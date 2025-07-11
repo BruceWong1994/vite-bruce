@@ -2,13 +2,15 @@
 import HelloWorld from './components/HelloWorld.vue'
 import DemoProps from './components/demo/DemoProps.vue';
 import DemoEmits from './components/demo/DemoEmits.vue';
+import SlotParent from './components/demo/SlotParent.vue';
 </script>
 
 <template>
   <div>
     <div>
       <!-- <DemoProps /> -->
-      <DemoEmits />
+      <!-- <DemoEmits /> -->
+      <SlotParent />
     </div>
     <a href="https://vite.dev" target="_blank">
       <img src="/vite.svg" class="logo" alt="Vite logo" />
