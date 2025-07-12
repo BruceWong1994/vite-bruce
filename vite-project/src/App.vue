@@ -3,11 +3,19 @@ import HelloWorld from './components/HelloWorld.vue'
 import DemoProps from './components/demo/DemoProps.vue';
 import DemoEmits from './components/demo/DemoEmits.vue';
 import SlotParent from './components/demo/SlotParent.vue';
+import { useAppStore } from './stores/appStore.js';
+
+const AppStore = useAppStore()
 </script>
 
 <template>
   <div>
     <div>
+      <p>fioasjdgiohasiogjoasdijfgoasjgonaio</p>
+      <p>{{ AppStore.obj.url }}</p>
+      <p>{{ AppStore.age }}</p>
+      <p><button @click="AppStore.add">岁数+1</button></p>
+      <hr>
       <!-- <DemoProps /> -->
       <!-- <DemoEmits /> -->
       <SlotParent />
