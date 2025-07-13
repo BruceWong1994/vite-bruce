@@ -2,7 +2,10 @@
 import { ref } from 'vue'
 
 defineProps({
-  msg: String,
+  msg: {
+    type:String,
+    default:'Vite+Vue3+Vue-router'
+  },
 })
 
 const count = ref(0)
