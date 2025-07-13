@@ -12,11 +12,12 @@ export const useAppStore = defineStore('appStore',()=>{
     const add = () => {
         age.value++
     }
+    
     return{
         obj,
         add,
         age
     }
 },{
-    persist:true
+    persist:true    //使用 pinia-plugin-persistedstate 插件实现即时存储到localStorage中
 })
