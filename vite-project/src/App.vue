@@ -15,7 +15,7 @@ const AppStore = useAppStore()
       <!-- <p>{{ AppStore.obj.url }}</p>
       <p>{{ AppStore.age }}</p>
       <p><button @click="AppStore.add">岁数+1</button></p> -->
-      <hr>
+      <!-- <hr> -->
       <!-- <DemoProps /> -->
       <!-- <DemoEmits /> -->
       <!-- <SlotParent /> -->
