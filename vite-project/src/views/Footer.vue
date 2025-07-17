@@ -8,16 +8,22 @@
     </div>
 </template>
 
-<style scoped>
+<style scoped lang="less">
     .backToHome {
         position: fixed;
-        bottom: 300px;
+        bottom: 20%;
         left: 0;
         width: 46px;
         height: 60px;
         background-color: pink;
         text-align: center;
-        /* color: black; */
         border-radius: 20%;
+        display: flex;
+        align-items: center;
+        a {
+            color: black;
+            font-size: 16px;
+            // line-height: 60px;
+        }
     }
 </style>

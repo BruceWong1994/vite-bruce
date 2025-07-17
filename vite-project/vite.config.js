@@ -9,5 +9,12 @@ export default defineConfig({
     alias:{
       '@': path.resolve(__dirname, 'src/views')
     }
+  },
+  css: {
+    preprocessorOptions: {
+      less: {
+        javascriptEnabled: true,
+      },
+    },
   }
 })

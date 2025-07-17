@@ -26,9 +26,27 @@
         <router-link to="/svip">我是svip</router-link>
 
         <div><button @click="goTo">编程式导航</button></div>
+
+        <div class="ls">
+            <span>测试一下less效果</span>
+            <div>这是一个矩形</div>
+        </div>
     </div>
 </template>
 
-<style scoped>
+<style scoped lang="less">
+    @colorRed: red;
+    @colorBlue: blue;
 
+    .ls{
+        margin-top:50px;
+        span{
+            color: @colorRed;
+        }
+        div{
+            width: 100px;
+            height: 100px;
+            background-color: @colorBlue;
+        }
+    }
 </style>
