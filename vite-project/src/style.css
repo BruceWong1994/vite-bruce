@@ -64,6 +64,13 @@ button:focus-visible {
   /* padding: 2rem; */
   /* text-align: center; */
 }
+.mb-4{
+  margin-bottom:1rem;
+}
+.header-navigation{
+  color: white;
+  background:grey;
+}
 
 @media (prefers-color-scheme: light) {
   :root {

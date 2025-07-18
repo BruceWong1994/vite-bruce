@@ -11,7 +11,7 @@
 <style scoped lang="less">
     .backToHome {
         position: fixed;
-        bottom: 20%;
+        bottom: 5%;
         left: 0;
         width: 46px;
         height: 60px;
